@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.5;
+}
+
+/* Content:
+1-- Header
+2-- Banner
+3-- main content
+4-- Location
+5- footer
+*/
+
+/*--- Header-----*/
+
+.header {
+  display: inline;
+}
+.img-logo {
+  height: 50px;
+  margin-left: 10px;
+}

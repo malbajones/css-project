@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.5;
+  margin: 0;
+}
+
+main {
+  padding-top: 69px;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+/* Content:
+1-- Header
+2-- Main-Banner
+3-- main content
+4-- Location
+5- footer
+*/
+
+/*--- 1- Header-----*/
+
+header {
+  position: fixed;
+  top: 0;
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  place-content: start space-between;
+  padding-left: 10px;
+  padding-right: 20px;
+  border-bottom: 1px solid seashell;
+}
+.nav-menu a {
+  color: white;
+  float: left;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 22px;
+  margin: 0 14px;
+}
+.img-logo {
+  height: 50px;
+  margin: 9px 0;
+}
+/* --- 2-Main Banner-----*/
+
+section {
+  width: 1200px;
+  margin: auto;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+section.banner {
+  background-image: url(./img/mission.jpeg);
+  height: 700px;
+  width: 1200px;
+}
+.title-banner {
+  padding: 10px 0 0;
+  margin: 0;
+}
+.text-banner {
+  margin: 5px 0 10px;
+  padding: 10px;
+}
+div.banner-text {
+  text-align: center;
+  background-color: black;
+  margin: 0;
+  position: absolute;
+  top: 42%;
+  width: 100%;
+}
+/*--3- Main content--*/
+.main-content {
+  text-align: center;
+  line-height: 2;
+}
+
+.main-content h1 {
+  margin-top: 60px;
+}
+
+.prod {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+}
+#content > div {
+  margin: 15px;
+}
+.img-prod {
+  height: 200px;
+  width: 300px;
+}
+.text-prod {
+  margin-top: 10px;
+}
+
+/*--  4- Location --*/
+#container {
+  background-image: url(./img/locations.jpeg);
+  background-size: cover;
+  background-position: right 35% bottom 80%;
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+}
+.title-contact {
+  padding-top: 60px;
+  font-size: 35px;
+  margin: 0;
+}
+#container-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1200px;
+  margin: 0;
+  padding-top: 15px;
+}
+
+#container-contact > div {
+  margin: 0 40px;
+}
+div.address {
+  background-color: black;
+  width: 300px;
+  height: 250px;
+}
+div.address p {
+  font-weight: 400;
+  line-height: 2.5;
+  opacity: 1;
+}
+div.address h3 {
+  margin-top: 5px;
+  padding-top: 5px;
+  line-height: 2.5;
+}
+/*--  5- Footer --*/
+.footer {
+  height: 200px;
+  width: auto;
+  text-align: center;
+}
+.mail {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+}
+.mail a {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.mail a:hover {
+  color: white;
+  opacity: none;
+  text-decoration: underline;
+  color: goldenrod;
+}
+.footer-end {
+  margin-left: 20px;
+  text-align: left;
+}
